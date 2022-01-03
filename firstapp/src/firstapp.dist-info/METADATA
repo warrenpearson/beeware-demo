@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: firstapp
+Formal-Name: First App
+App-ID: com.p34r50n.firstapp
+Version: 0.0.1
+Home-page: https://p34r50n.com/firstapp
+Author: Warren Pearson
+Author-email: warren@p34r50n.com
+Summary: My first application

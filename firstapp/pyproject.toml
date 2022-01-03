@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "First App"
+bundle = "com.p34r50n"
+version = "0.0.1"
+url = "https://p34r50n.com/firstapp"
+license = "BSD license"
+author = 'Warren Pearson'
+author_email = "warren@p34r50n.com"
+
+[tool.briefcase.app.firstapp]
+formal_name = "First App"
+description = "My first application"
+icon = "src/firstapp/resources/firstapp"
+sources = ['src/firstapp']
+requires = []
+
+
+[tool.briefcase.app.firstapp.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.firstapp.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.firstapp.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.firstapp.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.firstapp.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
