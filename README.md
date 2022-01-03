@@ -16,7 +16,11 @@ pip3 install -r requirements.txt
 
 ```
 briefcase new
+```
 
+### Run project
+
+```
 cd firstapp
 briefcase dev
 ```
