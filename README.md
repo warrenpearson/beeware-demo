@@ -24,3 +24,16 @@ briefcase new
 cd firstapp
 briefcase dev
 ```
+
+### Build app
+
+```
+briefcase create
+briefcase build
+```
+
+### Run standalone app
+
+```
+open macOS/app/First\ App/First\ App.app
+```
